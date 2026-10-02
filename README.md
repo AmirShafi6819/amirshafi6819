@@ -1,126 +1,287 @@
 <div align="center">
 
-# AmirHosein (Ashi)
-### Full-Stack Developer | Systems Engineer | Bedrock Infrastructure Architect
+# AmirHosein
+
+### Software Engineer · Systems · Infrastructure · Full-Stack
+
+<p>
+  <a href="https://github.com/amirshafi6819">
+    <img src="https://img.shields.io/badge/GitHub-amirshafi6819-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://t.me/TaRaF324">
+    <img src="https://img.shields.io/badge/Telegram-@TaRaF324-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+  </a>
+</p>
+
+<p>
+  <img src="https://komarev.com/ghpvc/?username=amirshafi6819&style=for-the-badge&color=0e75b6&label=PROFILE+VIEWS" alt="Profile views">
+</p>
+
+</div>
 
 ---
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Available-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Location-Iran-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Role-Software_Engineer-blue?style=for-the-badge" />
+## `whoami`
+
+I'm **AmirHosein** — a developer focused on building software that lives between the **application layer, operating system, and infrastructure**.
+
+I enjoy projects where the hard part isn't making a screen render, but making the entire system work:
+
+- authenticated users and fine-grained authorization
+- remote servers and SSH
+- real-time communication
+- terminals and process control
+- databases and persistence
+- observability and operational tooling
+- Linux infrastructure
+- scalable web interfaces
+- Minecraft Bedrock server ecosystems
+
+I care about **performance, security, reliability, clean architecture, and software that survives contact with production**.
+
+---
+
+## ⚡ What I'm Building
+
+### [Next.Panel](https://github.com/AmirShafi6819/Next-Dot-Panel)
+
+> **A modern infrastructure control plane for managing servers from one place.**
+
+Next.Panel is my main open-source project — a full-stack infrastructure management platform designed around real server operations rather than a collection of disconnected demos.
+
+#### Current focus
+
+```text
+┌─────────────────────────────────────────────────────────────┐
+│                      NEXT.PANEL                             │
+├─────────────────────────────────────────────────────────────┤
+│  AUTH       │ Authentication · Sessions · RBAC             │
+│  SERVERS    │ Managed hosts · Credentials · Host keys      │
+│  SSH        │ Exec · SFTP · PTY · Connection pooling       │
+│  TERMINAL   │ Interactive shell · WebSocket · xterm        │
+│  FILES      │ Browse · Transfer · Archive operations        │
+│  METRICS    │ CPU · Memory · Disk · Network · Processes    │
+│  AUDIT      │ Security events · Operations · History       │
+│  WEB UI     │ Responsive operator-focused interface        │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Repository →** https://github.com/AmirShafi6819/Next-Dot-Panel
+
+---
+
+## 🧭 Engineering Interests
+
+### Infrastructure
+
+Linux · SSH · Containers · Networking · Automation · Server Management
+
+### Backend
+
+TypeScript · Node.js · APIs · WebSockets · Authentication · RBAC · Databases
+
+### Frontend
+
+React · TypeScript · Vite · Responsive Interfaces · Dashboards · Operator UX
+
+### Systems
+
+Performance · Reliability · Security · Concurrency · Resource Management · Observability
+
+### Game Infrastructure
+
+Minecraft Bedrock · PocketMine-MP · WaterDog PE · Plugins · Server Networking
+
+---
+
+## 🛠 Technology
+
+### Languages
+
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,js,go,rust,php,python,cpp" alt="Languages">
+</p>
+
+### Web & Application
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,vite,tailwind,html,css" alt="Web technologies">
+</p>
+
+### Data
+
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis,mongodb" alt="Databases">
+</p>
+
+### Infrastructure & Tooling
+
+<p>
+  <img src="https://skillicons.dev/icons?i=linux,docker,nginx,bash,git,github" alt="Infrastructure">
 </p>
 
 ---
 
-### 📖 Professional Summary
+## 🧠 How I Think About Software
 
-I am a software engineer dedicated to building scalable, high-performance systems. My work bridges the gap between deep-level systems programming (Rust/PHP) and modern, interactive web interfaces. I specialize in Minecraft Bedrock architecture, managing complex server ecosystems, and developing robust, maintainable web applications.
+```text
+                    ┌──────────────────┐
+                    │      Product     │
+                    └────────┬─────────┘
+                             │
+                    ┌────────▼─────────┐
+                    │    Application   │
+                    └────────┬─────────┘
+                             │
+              ┌──────────────┼──────────────┐
+              │              │              │
+        ┌─────▼─────┐  ┌─────▼─────┐  ┌────▼────┐
+        │  Security │  │ Reliability│  │  Speed  │
+        └─────┬─────┘  └─────┬─────┘  └────┬────┘
+              │              │              │
+              └──────────────┼──────────────┘
+                             │
+                    ┌────────▼─────────┐
+                    │   Infrastructure │
+                    └────────┬─────────┘
+                             │
+                    ┌────────▼─────────┐
+                    │       Linux      │
+                    └──────────────────┘
+```
 
-My approach is rooted in **Performance Engineering**, **Security-First Development**, and **Clean Code Architecture**. I do not just write code; I design systems that scale.
+### Build for reality
 
----
+A system eventually encounters bad input, network failures, expired credentials, unavailable hosts, concurrent operations, resource limits, permission boundaries, corrupted state, and unexpected users.
 
-### 🛠 Technical Proficiency
+I try to design for those cases from the beginning.
 
-<br>
+### Prefer explicit boundaries
 
-**Backend & Systems Programming**
-<br>
-<img src="https://skillicons.dev/icons?i=php,rust,python,cpp,nodejs,go" />
-<br><br>
+Clear interfaces make large systems easier to reason about, test, replace, and extend.
 
-**Databases & Caching**
-<br>
-<img src="https://skillicons.dev/icons?i=mysql,sqlite,postgresql,redis,mongodb" />
-<br><br>
+### Security belongs in the architecture
 
-**Frontend Engineering**
-<br>
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,vite" />
-<br><br>
+Authentication, authorization, validation, secret handling, isolation, auditability, and least privilege should not be patches added after the system exists.
 
-**DevOps & Infrastructure**
-<br>
-<img src="https://skillicons.dev/icons?i=linux,docker,git,github,nginx,bash" />
-<br><br>
+### Observability is part of the product
 
----
-
-### 📐 Engineering Matrix
-
-| Domain | Core Expertise |
-| :--- | :--- |
-| **Backend Architecture** | API Design, Microservices, RESTful & WebSocket Communication |
-| **Game Server Systems** | PocketMine-MP (API 5), WaterDog PE, Packet Handling |
-| **Frontend Development** | Responsive UI/UX, State Management, Component Architecture |
-| **System Security** | Input Validation, Data Encryption, Anti-Bot Systems |
-| **DevOps** | Containerization, CI/CD, Server Hardening, Linux Automation |
-
----
-
-### 🧠 Development Philosophy
-
-**1. Performance First**
-Every line of code is evaluated for its impact on system resources. In backend services, I optimize for low latency and high concurrency.
-
-**2. Modular Architecture**
-I strictly adhere to decoupled design. Systems are built as independent modules that communicate through well-defined APIs.
-
-**3. Maintainability**
-Code is read more often than it is written. My scripts, plugins, and web projects follow strict standards for readability and documentation.
-
-**4. Security-Hardened**
-Security is not an afterthought. From input sanitization in PHP forms to thread-safety in Rust, I implement multiple layers of defense.
+A production system should make failures diagnosable. Logs, metrics, audit trails, health information, and meaningful errors are operational features — not decoration.
 
 ---
 
-### 💻 Development Environment
+## 🔬 Things I Like Working On
 
-*   **OS:** Arch Linux / Debian (Server-side optimized)
-*   **IDE:** PhpStorm (Backend) | VS Code (Frontend)
-*   **Terminal:** Zsh with Oh My Zsh
-*   **Version Control:** Git with Conventional Commits
-*   **Containerization:** Docker (For environment parity)
+```text
+Distributed / Remote Systems
+├── SSH
+├── WebSockets
+├── Remote execution
+├── Connection management
+└── Server orchestration
+
+Developer & Operator Tools
+├── Terminals
+├── File managers
+├── Monitoring
+├── Logs
+└── Automation
+
+Security
+├── Authentication
+├── Authorization
+├── Secrets
+├── Host verification
+└── Auditability
+
+Performance
+├── Low overhead
+├── Concurrency
+├── Resource limits
+├── Caching
+└── Efficient I/O
+```
 
 ---
 
-### 📊 GitHub Activity & Metrics
-
-<br>
+## 📊 GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ashaibery&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&line_height=28" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ashaibery&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="48%" />
+
+<img src="https://github-readme-stats.vercel.app/api?username=amirshafi6819&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true&count_private=true" width="49%" alt="GitHub statistics">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amirshafi6819&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" width="49%" alt="Top languages">
+
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ashaibery&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="50%" />
+
+<img src="https://streak-stats.demolab.com?user=amirshafi6819&theme=tokyonight&hide_border=true" width="70%" alt="GitHub contribution streak">
+
 </div>
 
-<br>
+---
+
+## 🚀 Open Source
+
+I like projects that are:
+
+- useful outside the author's machine
+- documented enough for another developer to understand
+- secure by default
+- observable when things go wrong
+- maintainable after the first release
+- designed with clear boundaries
+- honest about what is implemented and what is not
+
+My goal with open source is not to publish the largest repository.
+
+It is to publish software that people can **run, understand, trust, and extend**.
 
 ---
 
-### 🌐 Socials & Collaboration
+## 🧩 Currently Exploring
 
-*   **Telegram:** [@TaRaF324](https://t.me/TaRaF324) | [@ashaibery](https://t.me/ashaibery)
-*   **GitHub:** [@ashaibery](https://github.com/ashaibery)
-*   **Collaboration:** Always interested in high-level architectural discussions or complex backend projects.
+```text
+Infrastructure Control Planes
+        ↓
+Remote Server Management
+        ↓
+Observability & Operations
+        ↓
+Security & Authorization
+        ↓
+Automation
+        ↓
+Developer Experience
+```
 
 ---
 
-<br>
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ashaibery&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
+## 🌐 Connect
 
-<br>
-<p align="center">
-  <i>"Writing code that matters, building systems that last."</i>
-</p>
-<br>
+<div align="center">
+
+<a href="https://github.com/amirshafi6819">
+  <img src="https://img.shields.io/badge/GitHub-amirshafi6819-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a>
+
+<a href="https://t.me/TaRaF324">
+  <img src="https://img.shields.io/badge/Telegram-@TaRaF324-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+</a>
+
+<a href="https://t.me/ashaibery">
+  <img src="https://img.shields.io/badge/Telegram-@ashaibery-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+### `Build systems. Understand the layers. Ship what works.`
 
 </div>
